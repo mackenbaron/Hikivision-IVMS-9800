@@ -1,6 +1,6 @@
-# Hikivisong-IVMS-9800 
-  Hikivisong IVMS-9800
-# Brief Introduction
+# Project
+  Hikivision IVMS-9800 Project based on the devolop kit
+# Introduction
   This project based on .Net devolopKit of Hikivision. The supported versions are  IVMS-9800 V3.3.1 above and IVMS-8800 V2.1.1 above.
 Current code was built for our inner project which browsed on the Chorome 42.00 above , when a button on the website was  clicked, a
 window will be opened and connect to the monitor video server then play a realtime view  automaticlly if this App has been set up and 

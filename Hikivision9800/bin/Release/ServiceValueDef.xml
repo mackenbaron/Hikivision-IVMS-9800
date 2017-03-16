@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<define>
+  <httpsport>443</httpsport>
+  <resources>
+    <res value="1000" des="组织资源"/>
+    <res value="2000" des="用户信息"/>
+    <res value="30000" des="编码设备"/>
+    <res value="10000" des="监控点"/>
+	<res value="600000" des="智能监控点"/>
+    <res value="40000" des="IO报警"/>
+	<res value="40000" des="报警器"/>
+    <res value="30000" des="移动设备"/>
+    <res value="30000" des="设备"/>
+	<res value="501000" des="门禁"/>
+	<res value="502200" des="防区"/>
+	<res value="90000" des="对讲通道"/>
+	<res value="8803000" des="环境量"/>
+	<res value="50000" des="监视屏组"/>
+    <res value="100000" des="视频综合平台"/>
+    <res value="302000" des="报警主机"/>
+	<res value="400000" des="智能分析仪"/>
+	<res value="502000" des="报警主机通道"/>
+	<res value="502100" des="报警子系统通道"/>
+	<res value="502200" des="告警输入通道"/>
+	<res value="600000" des="智能分析通道"/>
+  </resources>
+  <operations>
+    <op value="10001" des="实时预览"/>
+    <op value="10002" des="视频参数调节"/>
+    <op value="10003" des="本地录像"/>
+    <op value="10004" des="云镜控制"/>
+    <op value="10006" des="录像回放"/>
+  </operations>
+  <ptz>
+    <cmd value="11" des="ZOOM_IN"/>
+    <cmd value="12" des="ZOOM_OUT"/>
+    <cmd value="13" des="FOCUS_IN"/>
+    <cmd value="14" des="FOCUS_OUT"/>
+    <cmd value="15" des="IRIS_ENLARGE"/>
+    <cmd value="16" des="IRIS_SHRINK"/>
+    <cmd value="21" des="TILT_UP"/>
+    <cmd value="22" des="TILT_DOWN"/>
+    <cmd value="23" des="PAN_LEFT"/>
+    <cmd value="24" des="PAN_RIGHT"/>
+    <cmd value="25" des="UP_LEFT"/>
+    <cmd value="26" des="UP_RIGHT"/>
+    <cmd value="27" des="DOWN_LEFT"/>
+    <cmd value="28" des="DOWN_RIGHT"/>
+    <cmd value="29" des="PAN_AUTO"/>
+  </ptz>
+  <historyAlarm>
+	  <监控点>
+	    <typ value="" des=""/>
+	    <typ value="131329" des="视频丢失"/>
+		<typ value="131330" des="遮挡告警"/>
+		<typ value="131331" des="移动侦测"/>
+		<typ value="131332" des="PIR告警"/>
+		<typ value="131333" des="无线告警"/>
+		<typ value="131334" des="呼救告警"/>
+		<typ value="131337" des="监控点掉线"/>
+	  </监控点>
+	  <报警器>
+		<typ value="589825" des="告警输入"/>
+	  </报警器>
+	  <智能监控点>
+	    <typ value="" des=""/>
+	    <typ value="131605" des="人员倒地"/>
+		<typ value="131631" des="人数异常"/>
+		<typ value="131632" des="间隔异常"/>
+		<typ value="131633" des="人员站立"/>
+		<typ value="131621" des="人脸侦测"/>
+		<typ value="131622" des="车辆侦测"/>
+		<typ value="131615" des="黑名单比对结果"/>
+		<typ value="131585" des="穿越警戒面"/>
+		<typ value="131586" des="进入区域"/>
+		<typ value="131587" des="离开区域"/>
+		<typ value="131588" des="区域入侵"/>
+		<typ value="131590" des="徘徊"/>
+		<typ value="131591" des="停车"/>
+		<typ value="131592" des="快速移动"/>
+		<typ value="131593" des="人员聚集"/>
+		<typ value="131594" des="物品遗留"/>
+		<typ value="131595" des="物品拿取"/>
+		<typ value="131612" des="场景变更报警"/>
+		<typ value="131613" des="虚焦报警"/>
+		<typ value="131623" des="音频输入异常"/>
+		<typ value="131624" des="音频输入突变"/>
+		<typ value="131625" des="车辆-正常进入"/>
+		<typ value="131626" des="车辆-非法进入"/>
+		<typ value="1114625" des="车辆-超速告警"/>
+		<typ value="196353" des="热成像烟火识别"/>
+		<typ value="196354" des="可见光烟火识别"/>
+	  </智能监控点>
+	  <防区>
+		<typ value="327681" des="防区告警"/>
+	  </防区>
+	  <门禁>
+	    <typ value="" des=""/>
+	    <typ value="197382" des="刷卡密码错"/>
+		<typ value="197634" des="非法卡"/>
+		<typ value="198400" des="长时间未关门"/>
+		<typ value="198657" des="暴力开门"/>
+		<typ value="198913" des="门打开"/>
+		<typ value="198914" des="刷卡开门"/>
+		<typ value="198915" des="超级密码开门"/>
+		<typ value="198916" des="按钮开门"/>
+		<typ value="199169" des="门关闭"/>
+		<typ value="199428" des="胁迫开门"/>
+		<typ value="261889" des="门禁路径超时"/>
+	  </门禁>
+	  <环境量>
+	    <typ value="" des=""/>
+	    <typ value="4000001" des="温度偏低告警"/>
+		<typ value="4000002" des="温度偏高告警"/>
+		<typ value="4000011" des="湿度偏低告警"/>
+		<typ value="4000012" des="湿度偏高告警"/>
+		<typ value="4000021" des="风速偏低告警"/>
+		<typ value="4000022" des="风速偏高告警"/>
+		<typ value="4000031" des="气体浓度偏低告警"/>
+		<typ value="4000032" des="气体浓度偏高告警"/>
+		<typ value="4000041" des="电压偏低告警"/>
+		<typ value="4000042" des="电压偏高告警"/>
+		<typ value="4000051" des="电流偏低告警"/>
+		<typ value="4000052" des="电流偏高告警"/>
+		<typ value="4000061" des="频率偏低告警"/>
+		<typ value="4000062" des="频率偏高告警"/>
+		<typ value="4000071" des="功率偏低告警"/>
+		<typ value="4000072" des="功率偏高告警"/>
+		<typ value="4000081" des="流量偏低告警"/>
+		<typ value="4000082" des="流量偏高告警"/>
+		<typ value="4000091" des="电池备份时间偏低告警"/>
+		<typ value="4000092" des="电池备份时间偏高告警"/>
+		<typ value="4000101" des="负载率偏低告警"/>
+		<typ value="4000102" des="负载率偏高告警"/>
+		<typ value="4000111" des="功率因素偏低告警"/>
+		<typ value="4000112" des="功率因素偏高告警"/>
+		<typ value="3000000" des="异常告警"/>
+	  </环境量>
+	  <移动设备>
+	    <typ value="" des=""/>
+	    <typ value="66049" des="设备掉线"/>
+		<typ value="66050" des="硬盘满"/>
+		<typ value="66054" des="硬盘错"/>
+		<typ value="851970" des="设备超速"/>
+		<typ value="851971" des="轨迹偏移"/>
+		<typ value="851973" des="围栏告警"/>
+		<typ value="851977" des="自定义超速"/>
+	  </移动设备>
+  </historyAlarm>
+  <nmsalarmtype>
+      <typ value="131336" des="监控点录像状态"/>
+	  <typ value="131337" des="监控点在线状态"/>
+	  <typ value="131338" des="监控点硬件状态"/>
+	  <typ value="131339" des="监控点主码流码率"/>
+	  <typ value="131340" des="监控点主码流帧率"/>
+	  <typ value="131341" des="监控点子码流码率"/>
+	  <typ value="131342" des="监控点子码流帧率"/>
+	  <typ value="66049" des="编码设备连接状态"/>
+	  <typ value="66048" des="编码设备工作状态"/>
+  </nmsalarmtype>
+</define>

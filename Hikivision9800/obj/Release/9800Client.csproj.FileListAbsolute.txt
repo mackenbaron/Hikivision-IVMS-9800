@@ -1,0 +1,16 @@
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\9800Client.exe
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\9800Client.pdb
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\AxInterop.PlatformPlaybackLib.dll
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\AxInterop.PlatformPreviewLib.dll
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\CommandLine.dll
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\SH3H.WSMP.Client.Video.Hikvision.exe
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\AxInterop.WMPLib.dll
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\Interop.WMPLib.dll
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\SH3H.WSMP.Client.Video.Hikvision.pdb
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\bin\Release\CommandLine.xml
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\obj\Release\9800Client.csprojResolveAssemblyReference.cache
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\obj\Release\_9800VideoTest.MainForm.resources
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\obj\Release\_9800Client.Properties.Resources.resources
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\obj\Release\9800Client.csproj.GenerateResource.Cache
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\obj\Release\9800Client.exe
+E:\1AAAAAAAAAAAAAAAAAAAAAAAAAAADuties\VideoClient\Hikvision8800\9800\obj\Release\9800Client.pdb

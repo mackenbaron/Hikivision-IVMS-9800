@@ -1,0 +1,6 @@
+将release 或者 debug下生成的文件复制到Video文件夹。
+在用HMNIS EDIT运行 setup.nsi
+运行成功生成的Setuo.exe即为程序安装文件。
+
+注意：
+debug 版本安装后需要将程序文件夹设置为everyone修改编辑权限。
